@@ -1,0 +1,40 @@
+#defenitions-found {
+    width: 1024px;
+    margin-top: 92px;
+}
+
+.link-box {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+}
+
+#no-word h1 {
+    font-size: 48px;
+    margin: 8px;
+}
+
+#no-word p {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1024px) { 
+    #defenitions-found {
+        width: 92vw;
+        margin-top: 62px;
+    }
+    #no-word h1 {
+        font-size: 28px;
+        margin: 8px;
+        text-align: center;
+    }
+    #no-word p {
+        font-size: 16px;
+    }
+    .link-box {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50vw;
+        align-items: center;
+    }
+}
